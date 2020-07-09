@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D36F63</color>
+    <color name="colorPrimaryDark">#D36F63</color>
+    <color name="colorAccent">#D36F63</color>
+    <color name="fundo">#E6ABA4</color>
+    <color name="text">#ffff</color>
+    <color name="colorToolBar">#2A5FD1</color>
+    <color name="appLoginBack">#2A5FD1</color>
+    <color name="appLoginButton">#0C2F9C</color>
+    <color name="colorBandio">#F9355B</color>
+    <color name="btnBandio">#FC153E</color>
+
+
+    </resources>

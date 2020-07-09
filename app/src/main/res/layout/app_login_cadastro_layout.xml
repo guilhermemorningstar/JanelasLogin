@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appLoginBack"
+    android:orientation="horizontal"
+    tools:context=".App_login_cadastro_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tree" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="Apps Login"
+            android:textColor="@color/text"
+            android:textSize="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/usuario"
+            android:hint="Login"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_email"
+            android:hint="E-mail"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/senha"
+            android:hint="Senha"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/senha"
+            android:hint="Senha"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_rendondo"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/text" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

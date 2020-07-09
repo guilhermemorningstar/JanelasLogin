@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appLoginBack"
+    android:orientation="horizontal"
+    tools:context=".AppLoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tree" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Apps Login"
+            android:textColor="@color/text"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/usuario"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Login"
+            android:background="@drawable/edt_borda"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/senha"
+            android:background="@drawable/edt_borda"
+            android:hint="Senha"
+            android:paddingHorizontal="20dp"
+            android:paddingLeft="5sp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/btn_rendondo"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/forget_password"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="@string/don_t_have_an_account_creat_new"
+            android:textColor="@color/text"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
